@@ -1,0 +1,46 @@
+/* Background image on Jumbotron */
+.jumbotron {
+    background-image: url("../assets/tech.jpg");
+    background-size: cover;
+    color: white;
+  }
+  /* Styling for Scraped Article's */
+  .article-holder {
+    border: 1px black solid;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 10px 10px 30px grey;
+    margin-bottom: 25px;
+  }
+  h4 {
+    border-bottom: 1px black solid;
+    padding-bottom: 4px;
+  }
+  .saved {
+    position: absolute;
+    right: 45px;
+    top: 50px;
+  }
+  .save {
+    right: 20px;
+    position: absolute;
+  }
+  .panel-heading {
+    position: relative;
+  }
+  .delete {
+    position: absolute;
+    right: 150px;
+  }
+  .deleted {
+    position: absolute;
+    right: 155px;
+    top: 55px;
+  }
+  .notes {
+    position: absolute;
+    right: 21px;
+  }
+  .note-delete {
+    margin-left: 11px;
+  }

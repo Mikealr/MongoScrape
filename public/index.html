@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<title>MongoScrape</title>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+	 crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+	 crossorigin="anonymous">
+
+	<!-- Custom styles for this template -->
+	<link href="./css/bootstrap-narrow.css" rel="stylesheet">
+	<link href="./css/styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+	<div class="container">
+		<div class="header clearfix">
+			<nav>
+				<ul class="nav nav-pills pull-right">
+					<li role="presentation" class="active">
+						<a href="/">Get some news</a>
+					</li>
+					<li role="presentation">
+						<a href="/saved">Saved Articles</a>
+					</li>
+				</ul>
+			</nav>
+			<h3 class="text-muted">Just Scrapin' by</h3>
+		</div>
+
+		<div class="jumbotron">
+			<h1>Scrape it!</h1>
+			<p class="lead">Scrape some content from a great tech news source, FreeCodeCamp</p>
+			<p>
+				<a class="btn btn-lg btn-success" id='scrape-button' href="#" role="button">Get some news</a>
+			</p>
+		</div>
+		<!-- Divider -->
+		<hr>
+
+		<div class="row marketing">
+			<div class="col-lg-12 main-articles">
+
+
+			</div>
+
+		</div>
+
+
+	<!-- Modal -->
+	<div class="modal fade" id="myModal" role="dialog">
+		<div class="modal-dialog">
+
+			<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<h3 class="modal-title">Success</h3>
+				</div>
+				<div class="modal-body">
+					<p>Posts have been scraped successfully! Page will refresh shortly..</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<!-- END Modal -->
+
+	<footer class="footer">
+		<p>&copy; 2018 Mikealr.</p>
+	</footer>
+
+	</div>
+
+
+
+
+	<!-- jQuery 3.3.1 -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+	 crossorigin="anonymous"></script>
+	<!-- Custom JS -->
+	<script type="text/javascript" src="./js/app.js"></script>
+</body>
+
+</html>
